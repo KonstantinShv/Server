@@ -1,0 +1,7 @@
+Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<counter() done, defined at c:\Users\Konstantin\Server\async2V4.py:44> exception=UnicodeDecodeError('utf-8', b'@\xe5\xc1 \xfe 7t 23.86205\r 8t 23.8', 1, 2, 'invalid continuation byte')>
+Traceback (most recent call last):
+  File "c:\Users\Konstantin\Server\async2V4.py", line 103, in counter
+    com_response_str = com_response.decode() # Переводим полученное значение из байтовой строки в обычную
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe5 in position 1: invalid continuation byte
+PS C:\Users\Konstantin\Server>
